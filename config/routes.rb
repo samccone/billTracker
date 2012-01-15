@@ -1,4 +1,6 @@
 JobTracker::Application.routes.draw do
+  resources :jobs
+  match "/" => "jobs#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
