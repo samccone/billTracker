@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: 
+  price: 1
+  shotOn: 
+  InvoicedOn: 
+  delivered: false
+  paymentReceived: false
+
+two:
+  name: 
+  price: 1
+  shotOn: 
+  InvoicedOn: 
+  delivered: false
+  paymentReceived: false

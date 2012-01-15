@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @job.name %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @job.price %>
+</p>
+
+<p>
+  <b>Shoton:</b>
+  <%= @job.shotOn %>
+</p>
+
+<p>
+  <b>Invoicedon:</b>
+  <%= @job.InvoicedOn %>
+</p>
+
+<p>
+  <b>Delivered:</b>
+  <%= @job.delivered %>
+</p>
+
+<p>
+  <b>Paymentreceived:</b>
+  <%= @job.paymentReceived %>
+</p>
+
+
+<%= link_to 'Edit', edit_job_path(@job) %> |
+<%= link_to 'Back', jobs_path %>
