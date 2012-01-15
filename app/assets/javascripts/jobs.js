@@ -11,8 +11,7 @@ JP.jobs = (function(){
   }
 
   function buildObjects() {
-    $('#job_shotOn').datepicker();
-    $('#job_InvoicedOn').datepicker();
+    $('.datepicker').datepicker();
   }
 
   return {init:init};
