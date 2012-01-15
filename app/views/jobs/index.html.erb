@@ -17,10 +17,10 @@
   <tr>
     <td><%= job.name %></td>
     <td><%= job.price %></td>
-    <td><%= job.shotOn %></td>
-    <td><%= job.InvoicedOn %></td>
+    <td><%= job.shot_date %></td>
+    <td><%= job.invoiced_on %></td>
     <td><%= job.delivered %></td>
-    <td><%= job.paymentReceived %></td>
+    <td><%= job.payment_received %></td>
     <td><%= link_to 'Show', job %></td>
     <td><%= link_to 'Edit', edit_job_path(job) %></td>
     <td><%= link_to 'Destroy', job, :confirm => 'Are you sure?', :method => :delete %></td>
