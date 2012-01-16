@@ -7,3 +7,21 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+var JP = JP || {};
+
+JP.base = (function() {
+
+  function init() {
+    setObjects();
+  }
+
+  function setObjects() {
+    $('body').addClass('ready');
+  }
+
+  return {init:init}
+
+}())
+
+$(document).ready( JP.base.init );
