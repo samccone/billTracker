@@ -9,7 +9,6 @@ gem 'pg'
 
 gem 'json'
 gem 'heroku'
-gem 'sqlite3'
 gem 'haml'
 
 # Gems used only for assets and not required
