@@ -8,15 +8,17 @@ gem 'rails', '3.1.1'
 gem 'pg'
 
 gem 'json'
-gem 'compass'
 gem 'heroku'
+gem 'sqlite3'
+gem 'haml'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.1.4'
-  gem 'coffee-rails', '~> 3.1.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails', '~> 3.1.0'
+  gem 'coffee-rails', '~> 3.1.0'
+  gem 'uglifier'
+  gem 'compass', '~> 0.12.alpha'
 end
 
 gem 'jquery-rails'
@@ -32,4 +34,3 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
-
