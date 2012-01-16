@@ -9,6 +9,12 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+if defined?(Bundler)
+  Bundler.require *Rails.groups(:assets => %w(development test))
+end
+
+config.assets.precompile << /(^[^_]|\/[^_])[^\/]*/
+
 module JobTracker
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
