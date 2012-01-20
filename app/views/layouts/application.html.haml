@@ -6,8 +6,9 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
+    #addMoreButton
+      =link_to '+', new_job_path
     #header
-      #addMoreButton
       .inner
         = render :partial => 'shared/selector'
     = yield
