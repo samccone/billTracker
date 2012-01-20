@@ -1,11 +1,11 @@
 .option_container
   .option
-    .count 123
+    .count #{Job.complete.count}
     %a{ :href => '#' } To Complete
   .option
-    .count 123
+    .count #{Job.payment_pending.count}
     %a{ :href => '#' } Payment Pending
   .option
-    .count 123
+    .count #{Job.done.count}
     %a{ :href => '#' } Done
 .option_container_reflection
